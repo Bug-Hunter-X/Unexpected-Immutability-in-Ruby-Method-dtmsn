@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in Ruby related to the misunderstanding of method behavior and mutability. The `MyClass` example shows that simply reassigning a value to a method that only returns the value, does not modify the object's internal state.  The solution demonstrates how to properly modify the internal state of the object.
